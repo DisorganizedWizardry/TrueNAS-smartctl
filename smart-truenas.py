@@ -72,7 +72,7 @@ def SendJSON(Drive, IP, Port):
     logstash.send(message)
     logstash.close()
   except:
-    print ("Failed send : %s" % Drive["device"]["name"])
+    print ("Failed to send : %s" % Drive["device"]["name"])
 
 
 
