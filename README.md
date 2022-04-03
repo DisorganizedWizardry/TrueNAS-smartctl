@@ -38,12 +38,12 @@ The script relies on smartctl to output json, make sure the below commands work.
 
 The command to scan for drives.
 ```
-/usr/local/sbin/smartctl -j --scan
+smartctl -j --scan
 ```
 
 The command that is run for each drive.
 ```
-/usr/local/sbin/smartctl -j -a [drive]
+smartctl -j -a [drive]
 ```
 
 If you get the `Failed to send` errors, check the logstash config.
