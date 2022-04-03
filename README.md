@@ -34,7 +34,7 @@ Create a cron job to export drive stats.
 
 ## Troubleshooting
 
-The script relys on smartctl to output json, make sure the below commands work. 
+The script relies on smartctl to output json, make sure the below commands work. 
 
 The command to scan for drives.
 ```
