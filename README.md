@@ -28,7 +28,9 @@ Usage: python3 smart-truenas.py [ip_address] [port]
 
 ## Setup the crontab on TrueNAS
 
+Create a cron job to export drive stats.
 
+![Cron job](cron_job.png)
 
 ## Troubleshooting
 
